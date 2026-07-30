@@ -1,9 +1,8 @@
 # Offline Software Installation Guide
 
-本文档用于记录 HPC / GPU 计算环境中常用依赖的软件离线安装方法。
+本文档用于记录 CMAKE-3.31.0 离线安装方法。
 
-适用于： - 无网络服务器 - 无 sudo 权限环境 - 用户目录安装 - CUDA / MPI /
-HPC 软件编译环境
+适用于： - 无网络服务器 - 无 sudo 权限环境 - 用户目录安装
 
 推荐所有软件统一安装到：
 
@@ -16,11 +15,6 @@ HPC 软件编译环境
 ``` text
 ~/soft/
 ├── cmake-3.31.0-linux-x86_64
-├── gcc-11.2.0
-├── openblas-install
-├── gklib-install
-├── metis-install
-└── superlu-dist-install
 ```
 
 ------------------------------------------------------------------------
