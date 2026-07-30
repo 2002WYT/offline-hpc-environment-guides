@@ -210,7 +210,7 @@ cd /home/wangyitong/build-gcc-11.2.0
 ```bash
 /home/wangyitong/gcc-11.2.0/configure \
   --prefix=/home/wangyitong/opt/gcc-11.2.0 \
-  --enable-languages=c,c++ \
+  --enable-languages=c,c++,fortran \
   --disable-multilib \
   --disable-bootstrap
 ```
@@ -224,7 +224,7 @@ cd /home/wangyitong/build-gcc-11.2.0
 表示将 GCC 安装到自己的用户目录，不需要 sudo。
 
 ```bash
---enable-languages=c,c++
+--enable-languages=c,c++,fortran
 ```
 
 表示只编译 C 和 C++ 编译器。
