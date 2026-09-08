@@ -158,12 +158,12 @@ isl -> isl-0.18
 cd /home/wangyitong/gcc-11.2.0
 
 tar -xf gmp-6.1.0.tar.bz2
-tar -xf mpfr-3.1.4.tar.bz2
+tar -xf mpfr-3.1.6.tar.bz2
 tar -xf mpc-1.0.3.tar.gz
 tar -xf isl-0.18.tar.bz2
 
 ln -s gmp-6.1.0 gmp
-ln -s mpfr-3.1.4 mpfr
+ln -s mpfr-3.1.6 mpfr
 ln -s mpc-1.0.3 mpc
 ln -s isl-0.18 isl
 ```
